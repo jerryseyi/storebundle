@@ -1,0 +1,435 @@
+.main .promo-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 20px 24px 20px;
+}
+
+.main .promo-group .promo-text {
+    width: 600px;
+}
+
+.main .promo-group .promo-text h3 {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #262626;
+}
+
+.main .promo-group .promo-text p {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8C8C8C;
+}
+
+.main .promo-group .promo-icon {
+    position: relative;
+    width: 28px;
+    height: 16px;
+    /*flex: none;*/
+    border-radius: 16px;
+}
+
+.main .promo-group .promo-icon.active {
+    background: #52C41A;
+}
+
+.main .promo-group .promo-header {
+    display: flex;
+}
+
+.main .promo-group .promo-header .breadcrumb-group {
+    margin: -2px 10px;
+}
+
+.main .promo-group .promo-header .breadcrumb-group p {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8C8C8C;
+}
+
+.main .promo-group .promo-header .breadcrumb-group p span {
+    color: #262626;
+}
+
+.main .promo-group .promo-icon .imgBx {
+    position: absolute;
+    left: 50%;
+    right: 7.14%;
+    top: 12.5%;
+    bottom: 12.5%;
+    background: #fff;
+    border-radius: 16px;
+}
+
+.main .promo-details {
+    background: #FFFFFF;
+    border-radius: 28px;
+    margin: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .promo-details .promo-frame {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.main .promo-details .promo-frame h3 {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #595959;
+}
+
+.main .promo-details .promo-frame button {
+    background: #FF667A;
+    border-radius: 8px;
+    padding: 6px 16px;
+    border: none;
+}
+
+.main .promo-details .promo-frame button .text {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 0px 8px;
+}
+
+.main .promo-details .promo-frame button .imgBx {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    top: 0;
+}
+
+.main .promo-details table {
+    border-spacing: 0;
+    margin: 3px 0;
+}
+
+.main .promo-details table thead {
+    background: #FAFAFA;
+}
+
+.main .promo-details table thead tr th {
+    padding: 16px;
+    text-align: left;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #262626;
+}
+
+.main .promo-details table thead tr th span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .promo-details table thead tr th span .imgBx {
+    position: relative;
+    width: 12px;
+    height: 12px;
+}
+
+.main .promo-details table thead tr th span .imgBx img {
+
+}
+
+.main .promo-details table tbody tr td {
+    padding: 16px;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #262626;
+    margin: 0px 8px;
+}
+
+.main .promo-details table tbody tr td .active {
+    border: 1px solid #B7EB8F;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 1px 8px;
+    background: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #52C41A;
+}
+
+.main .promo-details table tbody tr td .disabled {
+    background: #FFF1F0;
+    border: 1px solid #FFA39E;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 1px 8px;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #F5222D;
+}
+
+.main .promo-details table tbody tr td .imgBx {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: 0px 8px;
+}
+
+.main .settings {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 644px;
+    margin-left: 20px;
+}
+
+.main .settings h3 {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #262626;
+}
+
+.main .settings .settings-base {
+    margin: 0px 100px;
+}
+
+.main .settings .settings-base p {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8C8C8C;
+    margin: 14px 0;
+}
+
+.main .settings .settings-base .checkbox label {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #262626;
+    margin: 0px 8px;
+}
+
+.main .settings .settings-base .checkbox input:checked {
+    background: #FF667A;
+    border: 1px solid #FF667A;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.promo-main {
+    position: relative;
+    top: 74px;
+}
+
+.create-promo {
+    width: 100%;
+    height: 84px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 45px rgba(0, 0, 0, 0.08);
+    position: relative;
+    z-index: 1000;
+}
+
+.create-promo .frame-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.create-promo .frame-bar .left-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.create-promo .frame-bar .left-bar .imgBx {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: 0px 17px;
+}
+
+.create-promo .frame-bar .left-bar h3 {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #282338;
+}
+
+.create-promo .frame-bar .button-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.create-promo .frame-bar .button-group .btn-white {
+    margin: 0px 8px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 6px 16px;
+    width: 120px;
+    height: 48px;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #262626;
+}
+
+.create-promo .frame-bar .button-group .btn-pink {
+    position: relative;
+    width: 120px;
+    height: 48px;
+    background: #FF667A;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+}
+
+.create-promo .frame-bar .button-group .btn-pink span {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: none;
+    width: 88px;
+}
+
+.create-promo .frame-bar .button-group .btn-pink i {
+    width: 32px;
+    height: 48px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-promo .frame-bar .button-group .btn-pink i img {
+    width: 18px;
+    height: 18px;
+}
+
+.promo-form-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 111px;
+    background: #fff;
+}
+
+.promo-form-details form {
+    width: 100%;
+}
+
+.promo-form-details form .input-group {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.promo-form-details form .input-group .input-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+    width: 50%;
+}
+
+
+.promo-form-details form .input-group .input-box select {
+    background: #fff;
+    border: 2px solid #FF667A;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(255, 102, 122, 0.5);
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+
+.promo-form-details form .input-group:nth-child(1) .input-box:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+}
+
+.promo-form-details form .input-group:nth-child(1) .input-box:nth-child(2) .input-box-split {
+    width: 50%;
+}
+
+.promo-form-details form .input-group:nth-child(1) .input-box:nth-child(2) .input-box-split:nth-child(1) {
+    margin-right: 20px;
+}
+
+.promo-form-details form .input-group .input-box label {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #262626;
+}
+
+.promo-form-details form .input-group .input-box input {
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 100%;
+    padding: 8px 12px;
+}
+
+.promo-form-details form .input-group .input-box input::placeholder {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8C8C8C;
+}
